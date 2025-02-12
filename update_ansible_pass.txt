@@ -1,10 +1,6 @@
 #!/bin/bash
 
-# Set Production Vault details
-VAULT_ADDR="https://vaultprod.flex.com:8200"
-VAULT_NAMESPACE="cloudops"
-APPROLE_ID=""
-SECRET_ID=""
+
 
 # Authenticate with AppRole
 VAULT_TOKEN=$(curl -s --request POST \
